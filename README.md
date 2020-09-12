@@ -5,6 +5,10 @@ Este es el proyecto integrador del grupo 4 para Digital House
 
 Se realizara un e-commerce para un emprendimiento de reposteria para eventos. El objetivo es crear en primera instancia un e-commerce tradicional mostrando los productos. En segunda instancia se quiere desarrollar la posibilidad de que el user vaya armando su propia torta con las opciones que se le vayan proponiendo para dar un resultado final con un presupuesto y la cantidad de dias que es necesario para elaborar dicho producto. 
 
+# Publico Objetivo
+
+Se apunta a personas de cualquier estado civil de ambos sexos, entre 20 y 60 anos con un nivel socioeconomico medio-alto que pueden o no tener hijos. Estas personas tienden a usar las redes sociales para consumir productos en las paginas web. 
+
 ## Particpantes 
 
 - Luis Batalla
@@ -28,9 +32,13 @@ https://github.com/lupeaugier/proyecto-x.git
 
 ###  Links de referencias 
 - https://www.instagram.com/pasteleria_coquita/?hl=es 
+- https://shatila.com/blog/cakes/
 - http://www.laalvear.com.ar/
 - http://www.buenosairesbakery.com.ar/
-
+- https://www.sendacake.com/birthday-best-sellers
+- http://susiecakes.com/
+- https://websitedesignaustintexas.com/blog/2019/best-bakery-websites/
+- https://milkbarstore.com/collections/gift-shop 
 
 ## Utilización localhost 
 
