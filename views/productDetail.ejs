@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<%- include('partials/head', {title: 'Detalle de productos'}) %>
+<link rel="stylesheet" href="/stylesheets/productDetail.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link
+  href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Pacifico&family=Roboto&display=swap"
+  rel="stylesheet">
+
+<body>
+  <%- include('partials/header') %>
+
+  <section>
+
+    <article class="compra-producto">
+      <div class="icono-torta">
+        <a href="" class="icono-link">
+          <img src="/images/birthday-cake.svg" class="icono-torta1">
+          <p class="texto-icono">Cumpleaños</p>
+        </a>
+      </div>
+
+      <div class="contenedor-torta">
+        <img src="/images/torta-babyyoda.png" class="foto-torta">
+      </div>
+
+      <div class="opciones">
+        <div class="texto-precio">
+          <div class="texto">
+
+
+            <p class="titulo-producto">Torta Baby Yoda</p>
+
+            <p class="seleccion">Selecciona tus opciones:</p>
+
+            <div class="cant-personas w-95">
+              <p class="preg-personas m-10">Cantidad de personas</p>
+              <i class="fas fa-arrow-circle-down"></i>
+            </div>
+
+            <div class="pisos w-95">
+              <p class="preg-pisos m-10">Cantidad de pisos</p>
+              <i class="fas fa-arrow-circle-down"></i>
+
+            </div>
+
+            <div class="bizcochuelo w-95">
+              <p class="preg-bizco m-10">Tipo de bizcochuelo</p>
+              <i class="fas fa-arrow-circle-down"></i>
+
+            </div>
+
+            <div class="relleno w-95">
+              <p class="preg-relleno m-10">Tipo de relleno</p>
+              <i class="fas fa-arrow-circle-down"></i>
+
+            </div>
+
+          </div>
+
+          <div class="precio">
+            <p>$ 3.500</p>
+          </div>
+        </div>
+
+        <div class="boton-comprar">
+          <p class="carrito"><a href="/productCart" class="boton-agregar">Agregar al carrito</a></p>
+          </a>
+
+        </div>
+      </div>
+
+    </article>
+
+    <article class="ingredientes">
+      <div class="caja-ingredientes">
+        <p class="titulo">Ingredientes</p>
+
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam minima dignissimos veritatis
+          maiores aperiam magni porro ad voluptatum distinctio mollitia assumenda facilis, pariatur sequi nemo soluta
+          tempore tenetur inventore perferendis!</p>
+      </div>
+
+      <div class="caja-especificaciones">
+        <p class="titulo">Especificaciones</p>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. In atque animi itaque iure, earum
+          similique! Magnam sint praesentium quia rerum quas, cupiditate eveniet ab dicta, minus saepe molestias, ex
+          aut.</p>
+      </div>
+
+
+    </article>
+  </section>
+
+
+  <div class="podes color-fondo">
+    <h1 class="letra-fredoka">Podes agregar</h1>
+
+    <div class="contenedor-imagenes dp-flex">
+
+      <i class="fas fa-long-arrow-alt-left flechas margen-izquierda"></i>
+
+      <div class="contenedor-postres">
+        <a href="">
+          <img src="/images/cupcake.svg" width="100px" height="100px" alt=""></a>
+        <i class="fas fa-image color-chocolate"></i>
+        <h2 class="letra-pacifico color-rosa">Cupcakes</h2>
+        <h3 class="letra-roboto color-chocolate">$50 c/u</h3>
+        <p class="contenedor-agregar"><a href="" class="boton-agregar">Agregar</p></a>
+      </div>
+
+      <div class="contenedor-postres">
+        <a href="">
+          <img src="/images/cupcake.svg" width="50px" height="50px" alt=""></a>
+        <i class="fas fa-image color-chocolate"></i>
+        <h2 class="letra-pacifico color-rosa">Brownies</h2>
+        <h3 class="letra-roboto color-chocolate">$50 c/u</h3>
+        <p class="contenedor-agregar"><a href="" class="boton-agregar">Agregar</p></a>
+      </div>
+
+      <div class="contenedor-postres">
+        <a href="">
+          <img src="/images/apple-pie.svg" width="50px" height="50px" alt=""></a>
+        <i class="fas fa-image color-chocolate"></i>
+        <h2 class="letra-pacifico color-rosa">Lemon Pie</h2>
+        <h3 class="letra-roboto color-chocolate">$750 c/u</h3>
+        <p class="contenedor-agregar"><a href="" class="boton-agregar">Agregar</p></a>
+      </div>
+
+      <div class="contenedor-postres">
+        <a href="">
+          <img src="/images/apple-pie.svg" width="50px" height="50px" alt=""></a>
+        <i class="fas fa-image color-chocolate"></i>
+        <h2 class="letra-pacifico color-rosa">Havenette</h2>
+        <h3 class="letra-roboto color-chocolate">$750 c/u</h3>
+        <p class="contenedor-agregar"><a href="" class="boton-agregar">Agregar</p></a>
+      </div>
+
+      <i class="fas fa-long-arrow-alt-right flechas margen-derecha"></i>
+    </div>
+
+  </div>
+
+  <%- include('partials/footer') %>
+</body>
+
+</html>

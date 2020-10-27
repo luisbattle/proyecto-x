@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head',{title:'Productos Pasteleria Coquita'}) %>
+
+<link rel="stylesheet" href="/stylesheets/productMain.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link
+    href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Pacifico&family=Roboto&display=swap"
+    rel="stylesheet">
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/productMain.css">
+    <link rel="stylesheet" href="/stylesheets/header.css">
+    <link rel="stylesheet" href="/stylesheets/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Pacifico&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Productos Pasteleria Coquita</title>
+</head> -->
+
+<body class="cuerpo">
+    <%- include('partials/header') %>
+
+    <main>
+
+        <section class="products-menu">
+            <article class="margin primer-item p-1">
+
+                <img src="/images/birthday-cake.svg" class="products-icons">
+                <a href="" class="color-link">
+                    <p class="f-pacifico">Cumpleaños</p>
+                </a>
+            </article>
+
+            <article class="margin p-1">
+
+                <img src="/images/celebration.svg" class="products-icons">
+                <a href="" class="color-link">
+                    <p class="f-pacifico">Eventos</p>
+                </a>
+            </article>
+
+            <article class="margin">
+
+                <img src="/images/cupcake.svg" class="products-icons">
+                <a href="" class="color-link">
+                    <p class="f-pacifico two-lines">Pequeños gustos</p>
+                </a>
+            </article>
+
+            <article class="margin">
+
+                <img src="/images/apple-pie.svg" class="products-icons">
+                <a href="" class="color-link">
+                    <p class="f-pacifico one-line">Las de siempre</p>
+                </a>
+            </article>
+
+        </section>
+
+        <section class="buscador-torta">
+            <div class="buscador">
+                <input type="search" class="input-buscador" placeholder="Buscador de tematica">
+
+                <a href=""><img src="/images/search.png" width="25px" height="25px" class="lupita"></a>
+
+            </div>
+        </section>
+
+        <section class="detalle-productos">
+            <article class="producto">
+
+                <img src="/images/torta-tik-tok.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Tik Tok
+                </p>
+
+                <p class="precio-torta">
+                    $ 3.500
+                </p>
+
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">
+                            Comprar
+                        </p>
+                    </a>
+                </div>
+
+
+            </article>
+
+            <article class="producto">
+
+                <img src="/images/torta-babyyoda.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Baby Yoda
+                </p>
+
+                <p class="precio-torta">
+                    $ 5.500
+                </p>
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">
+                            Comprar
+                        </p>
+                    </a>
+                </div>
+
+            </article>
+
+            <article class="producto">
+
+                <img src="/images/torta-strangerthings.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Stranger Things
+                </p>
+
+                <p class="precio-torta">
+                    $ 3.500
+                </p>
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">Comprar</p>
+                    </a>
+                </div>
+
+
+            </article>
+
+            <article class="producto">
+                <img src="/images/torta-cerveza.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Cerveza
+                </p>
+
+                <p class="precio-torta">
+                    $ 4.500
+                </p>
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">
+                            Comprar
+                        </p>
+                    </a>
+                </div>
+
+
+            </article>
+
+            <article class="producto">
+                <img src="/images/torta-caja.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Caja Delivery
+                </p>
+
+                <p class="precio-torta">
+                    $ 3.500
+                </p>
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">
+                            Comprar
+                        </p>
+                    </a>
+                </div>
+
+
+            </article>
+
+            <article class="producto">
+                <img src="/images/torta-chanel.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Chanel
+                </p>
+
+                <p class="precio-torta">
+                    $ 3.500
+                </p>
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">
+                            Comprar
+                        </p>
+                    </a>
+                </div>
+
+            </article>
+
+            <article class="producto">
+                <img src="/images/torta-3-osos.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Tres Osos
+                </p>
+
+                <p class="precio-torta">
+                    $ 3.500
+                </p>
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">
+                            Comprar
+                        </p>
+                    </a>
+                </div>
+
+            </article>
+
+            <article class="producto">
+                <img src="/images/torta-avengers.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Avengers
+                </p>
+
+                <p class="precio-torta">
+                    $ 5.500
+                </p>
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">
+                            Comprar
+                        </p>
+                    </a>
+                </div>
+
+
+            </article>
+
+
+            <article class="producto">
+                <img src="/images/torta-baby-shark.png" class="foto-torta">
+                <p class="texto-torta">
+                    Torta Baby Shark
+                </p>
+
+                <p class="precio-torta">
+                    $ 4.500
+                </p>
+                <div class="boton-comprar">
+                    <a href="/productDetail">
+                        <p class="texto-comprar">
+                            Comprar
+                        </p>
+                    </a>
+                </div>
+
+
+            </article>
+        </section>
+
+        <div class="paginas">
+            <ul class="lista-paginas">
+                <li class="pag-1 m-5px"><a href="" class="color-link2">1</a></li>
+                <li class="pag-2 m-5px"><a href="" class="color-link2">2</a></li>
+                <li class="pag-3 m-5px"><a href="" class="color-link2">3</a></li>
+                <li class="pag-4 m-5px"><a href="" class="color-link2">4</a></li>
+                <li class="pag-5 m-5px"><a href="" class="color-link2">5</a></li>
+                <li class="pag-prox m-5px"><a href="" class="color-link2">Proxima pagina</a></li>
+            </ul>
+        </div>
+
+
+    </main>
+
+
+    <%- include('partials/footer') %>
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<%- include('partials/head', {title:"Carrito de compras"}) %>
+<link rel="stylesheet" href="/stylesheets/carrito.css">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+<link
+    href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat&family=Pacifico&family=Roboto&display=swap"
+    rel="stylesheet">
+
+
+
+<body>
+    <%- include('partials/header') %>
+
+    <div class="carrito dp-flex borde-marron">
+
+
+        <div class="productos-comprados dp-flex">
+
+            <div class="items dp-flex borde-marron">
+                <img src="img/birthday-cake.svg" alt="" class="imagenes-carrito">
+
+
+                <div class="nombre-items color-marron">
+                    <p><b>Nombre items</b></p>
+                </div>
+
+                <div class="lista-caracteristicas color-marron">
+                    <li>Cantidad Personas</li>
+                    <li>Pisos</li>
+                    <li>Bizcochuelos</li>
+                    <li>Relleno</li>
+                </div>
+
+                <div class="coste-final color-marron">
+                    <p><b>$1500</b></p>
+                </div>
+            </div>
+
+            <div class="items dp-flex borde-marron">
+                <img src="img/birthday-cake.svg" alt="" class="imagenes-carrito">
+
+
+                <div class="nombre-items color-marron">
+                    <p><b>Nombre items</b></p>
+                </div>
+
+                <div class="lista-caracteristicas color-marron">
+                    <li>Cantidad Personas</li>
+                    <li>Pisos</li>
+                    <li>Bizcochuelos</li>
+                    <li>Relleno</li>
+                </div>
+
+                <div class="coste-final color-marron">
+                    <p><b>$1500</b></p>
+                </div>
+            </div>
+
+            <div class="items dp-flex borde-marron">
+                <img src="img/birthday-cake.svg" alt="" class="imagenes-carrito">
+
+
+                <div class="nombre-items color-marron">
+                    <p><b>Nombre items</b></p>
+                </div>
+
+                <div class="lista-caracteristicas color-marron">
+                    <li>Cantidad Personas</li>
+                    <li>Pisos</li>
+                    <li>Bizcochuelos</li>
+                    <li>Relleno</li>
+                </div>
+
+                <div class="coste-final color-marron">
+                    <p><b>$1500</b></p>
+                </div>
+            </div>
+
+        </div>
+        <div class="total dp-flex borde-marron">
+            <div class="finalizar-compra color-marron">
+                <p><b>Elegi la fecha de entrega</b></p>
+            </div>
+
+            <div class="icono-calendario borde-marron color-marron">
+                <i class="far fa-calendar-alt"></i>
+
+            </div>
+
+            <div class="checkbos color-marron">
+                <label><input type="radio" id="local" value="local" name="retiro"> Retirar por local</label><br>
+                <label><input type="radio" id="Domicilio" value="Domicilio" name="retiro"> Domicilio</label><br>
+
+            </div>
+
+            <div class=total-apagar>
+                <p class="color-marron">Subtotal..................$$</p>
+                <p class="color-marron">Costo de envio............$$</p>
+            </div>
+
+            <div class="total-grande color-marron">
+                <P><B>Total $ 9999</B></P>
+
+            </div>
+
+            <div class="boton-comprar">
+                <input type="submit" value="Comprar">
+            </div>
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+    <%- include('partials/footer') %>
+
+</body>
+
+</html>
