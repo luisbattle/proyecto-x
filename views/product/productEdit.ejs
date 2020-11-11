@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <%- include('partials/head', {title:"Edicion de Productos"})%>
+    <%- include('../partials/head', {title:"Edicion de Productos"})%>
     <link rel="stylesheet" href="/stylesheets/edicion.css">
 <body>
-    <%- include('partials/header')%>
+    
         <h1>Edición de productos</h1>
     <div class="contenedor-grande dp-flex">
 
-        <img src="/images/torta-avengers.png" alt="">
+        <img src="/images/<%-product.image %>" alt="">
 
         <div class="formulario dp-flex">
             <div class= "datos dp-flex"> 
 
                 <div class="dp-flex espacio-botones">
-                    <input type="text" placeholder="Nombre" class="margen-tres">
+                    <input type="text" placeholder="<%-product.name%>" class="margen-tres">
                 </div>
 
                 <div class="dp-flex">
-                    <input type="number" name="Precio" placeholder="Precio" class="margen-tres"> 
+                    <input type="number" name="Precio" placeholder="<%-product.price%>$" class="margen-tres"> 
                 </div>
 
                 <div class="dp-flex">
-                    <input type="text" placeholder="Descripción" class="margen-tres">
+                    <input type="text" placeholder="<%-product.detail%>" class="margen-tres">
                 </div>
 
                 <div class="dp-flex">
@@ -37,7 +37,7 @@
         </div>
 
     </div>
-<%- include('partials/footer') %>
+<%- include('../partials/footer') %>
 
 </body>
 </html>

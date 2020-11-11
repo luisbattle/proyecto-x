@@ -12,7 +12,10 @@
 <body>
   <%- include('../partials/header') %>
 
+  
   <section>
+    
+    
     <article class="compra-producto">
       <div class="icono-torta">
         <a href="" class="icono-link">
@@ -20,15 +23,16 @@
           <p class="texto-icono">Cumpleaños</p>
         </a>
       </div>
-
+      
       <div class="contenedor-torta">
-        <img src="/images/<%= product.image %> " class="foto-torta">
+       
+        <img src="/images/<%-product.image%>" class="foto-torta">
       </div>
 
       <div class="opciones">
         <div class="texto-precio">
           <div class="texto">
-            <p class="titulo-producto"><%= product.name %> </p>
+            <p class="titulo-producto"><%=product.name%> </p>
             <p class="seleccion">Selecciona tus opciones:</p>
             <div class="cant-personas w-95">
               <p class="preg-personas m-10">Cantidad de personas</p>
@@ -56,7 +60,7 @@
           </div>
 
           <div class="precio">
-            <p>$ 3.500</p>
+            <p><%-product.price%>$</p>
           </div>
         </div>
 
@@ -68,7 +72,7 @@
       </div>
 
     </article>
-
+   
     <article class="ingredientes">
       <div class="caja-ingredientes">
         <p class="titulo">Ingredientes</p>

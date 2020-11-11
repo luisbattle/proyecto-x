@@ -12,6 +12,9 @@ const productsMiddleware = {
     console.log("FOUND" + product);
     return product;
   },
+
+  
+  
 };
 
 module.exports = { productsMiddleware };

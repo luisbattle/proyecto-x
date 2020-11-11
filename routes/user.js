@@ -26,4 +26,12 @@ router.post(
   userControllers.storeUser
 );
 
+//ruta para administracion
+
+router.get("/administracion",userControllers.administracion);
+
+//ruta para carro de compras
+
+router.get("/cart",userControllers.carroDecompras);
+
 module.exports = router;

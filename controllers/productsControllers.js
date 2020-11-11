@@ -12,6 +12,21 @@ const productsController = {
     console.log(product);
     res.render("product/productDetail", { product: product[0] });
   },
-};
+
+  productEdition:(req,res)=>{
+    let product = productsMiddleware.getProductById(req.params.id);
+    res.render("product/productEdit", { product: product[0] });
+    
+  }
+
+ }
+  
+
+
+
+
+
+
+
 
 module.exports = productsController;

@@ -15,6 +15,19 @@ const userControllers = {
   login: (req, res) => {
     res.send("login :)");
   },
+
+  administracion: (req,res) =>{
+    res.render("../views/admin/administracion.ejs")},
+
+  carroDecompras:(req,res)=>{
+
+    res.render("../views/cart/cart.ejs")
+  }
+
+
+
 };
+
+
 
 module.exports = userControllers;

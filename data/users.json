@@ -1,1 +1,26 @@
-[{"name":"","email":"jose-garcia@test.com","password":"$2b$10$WeOYrUp54S.noOBg4P.X6OMSS8yrQ/aKk4xnEENuL8rKcCET6fyf.","admin":false},{"name":"","email":"luis.batalla@outlook.com","password":"$2b$10$uGor47xvFRXlDCpU6dzbFu.dzg1cP7UbOEIw6iUKlNHDoyhBf8./W","admin":false},{"name":"","email":"nuevo@user.com","password":"$2b$10$9dwe/Qge4Pd4JABb9hG6q.bBJC4HdV5lBdqTxAvVC1RCVDkMPeSBS","admin":false}]
+[
+  {
+    "name": "",
+    "email": "jose-garcia@test.com",
+    "password": "$2b$10$WeOYrUp54S.noOBg4P.X6OMSS8yrQ/aKk4xnEENuL8rKcCET6fyf.",
+    "admin": false
+  },
+  {
+    "name": "",
+    "email": "luis.batalla@outlook.com",
+    "password": "$2b$10$uGor47xvFRXlDCpU6dzbFu.dzg1cP7UbOEIw6iUKlNHDoyhBf8./W",
+    "admin": false
+  },
+  {
+    "name": "",
+    "email": "nuevo@user.com",
+    "password": "$2b$10$9dwe/Qge4Pd4JABb9hG6q.bBJC4HdV5lBdqTxAvVC1RCVDkMPeSBS",
+    "admin": false
+  },
+  {
+    "name": "",
+    "email": "rarbtk10@gmail.com",
+    "password": "$2b$10$D9y7MyJwL6I8es2oeXT0suehq2SXOJIa3z9puxivi4olD6QKjcYqq",
+    "admin": false
+  }
+]
