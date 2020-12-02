@@ -1,4 +1,4 @@
-var sleep = require("sleep");
+//var sleep = require("sleep");
 
 function guestMiddleware(req, res, next) {
   if (req.session.user == undefined) {

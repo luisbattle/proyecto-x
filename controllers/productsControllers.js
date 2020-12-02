@@ -1,22 +1,22 @@
 const { Product } = require("../models/products");
-//let productos = require("../data/products.json");
+let productos = require("../data/products.json");
 let fs = require("fs");
 let path = require("path");
 
 const productsController = {
   products: (req, res) => {
     let products = Product.getProducts();
-    res.render("product/product", { products, currentUser: req.session.user });
+    res.render("product/product", { products:products});
   },
 
   productDetail: (req, res) => {
     let products = Product.getProductById(req.params.id);
-    res.render("product/productDetail", { product: products });
+    res.render("product/productDetail", { products:products });
   },
 
   productEdition: (req, res) => {
     let productToEdit = Product.getProductById(req.params.id);
-    res.render("product/productEdit", { product: productToEdit });
+    res.render("product/productEdit", { productToEdit: productToEdit });
   },
 
   create: (req, res) => {
